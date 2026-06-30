@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunshine Kindergarten School</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f8fbff;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#00b4db,#0083b0);
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+header h1{
+font-size:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+font-weight:600;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 8%;
+background:linear-gradient(135deg,#ffe259,#ffa751);
+flex-wrap:wrap;
+}
+
+.hero-text{
+flex:1;
+min-width:300px;
+}
+
+.hero-text h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:25px;
+line-height:1.8;
+}
+
+.hero button{
+padding:15px 35px;
+border:none;
+background:#ff4d4d;
+color:white;
+font-size:18px;
+border-radius:30px;
+cursor:pointer;
+}
+
+.hero img{
+width:450px;
+max-width:100%;
+}
+
+section{
+padding:70px 8%;
+}
+
+.title{
+text-align:center;
+font-size:36px;
+margin-bottom:50px;
+color:#0077b6;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+transition:.4s;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#ff6b35;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature{
+background:#fff;
+padding:25px;
+border-radius:15px;
+box-shadow:0 8px 15px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:15px;
+}
+
+.review{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:40px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+}
+
+input,textarea{
+padding:15px;
+margin-bottom:20px;
+border-radius:10px;
+border:1px solid #ddd;
+}
+
+button{
+padding:15px;
+background:#00a8e8;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:15px;
+}
+
+footer{
+background:#0083b0;
+padding:25px;
+text-align:center;
+color:white;
+}
+
+@media(max-width:768px){
+
+.hero{
+text-align:center;
+}
+
+.hero img{
+margin-top:30px;
+}
+
+.hero h2{
+font-size:35px;
+}
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<h1>🌈 Sunshine Kindergarten</h1>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Programs</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>Learning Through Fun & Creativity</h2>
+
+<p>
+A joyful place where every child learns, plays, explores and grows with confidence.
+Admissions Open for Nursery, LKG & UKG.
+</p>
+
+<button>📞 Call Now</button>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=700" alt="kids">
+
+</section>
+
+<section>
+
+<h2 class="title">About Our School</h2>
+
+<p style="text-align:center;font-size:18px;max-width:900px;margin:auto;">
+Sunshine Kindergarten provides a safe, caring and joyful learning environment.
+Our experienced teachers help children develop creativity, confidence,
+communication and social skills through fun-filled activities.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="title">Our Programs</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Nursery</h3>
+<p>Fun learning with storytelling, music, art and games.</p>
+</div>
+
+<div class="card">
+<h3>LKG</h3>
+<p>Language, numbers, creativity and classroom interaction.</p>
+</div>
+
+<div class="card">
+<h3>UKG</h3>
+<p>Preparing children confidently for primary school education.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Why Parents Choose Us</h2>
+
+<div class="features">
+
+<div class="feature">👩‍🏫 Experienced Teachers</div>
+
+<div class="feature">🚌 Safe Transportation</div>
+
+<div class="feature">🎨 Smart Classrooms</div>
+
+<div class="feature">⚽ Indoor & Outdoor Games</div>
+
+<div class="feature">🍎 Healthy Environment</div>
+
+<div class="feature">📚 Activity Based Learning</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Photo Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=700">
+
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700">
+
+<img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=700">
+
+<img src="https://images.unsplash.com/photo-1516627145497-bc95d4d53b4f?w=700">
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Parent Reviews</h2>
+
+<div class="cards">
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Wonderful teachers and caring environment."</p>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"My child loves going to school every day."</p>
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐
+<p>"Excellent facilities and activity-based learning."</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Contact Us</h2>
+
+<div class="contact">
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<input type="text" placeholder="Phone">
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button>Send Message</button>
+
+</form>
+
+<iframe
+src="https://maps.google.com/maps?q=Bangalore&t=&z=13&ie=UTF8&iwloc=&output=embed">
+</iframe>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Sunshine Kindergarten School</h3>
+
+<p>📍 Bangalore, India</p>
+
+<p>📞 +91 98765 43210</p>
+
+<p>✉️ info@sunshinekg.com</p>
+
+<p>© 2026 Sunshine Kindergarten. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
